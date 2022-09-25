@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    color: green;
+}
+.email{
+
+    margin-left:12px;
+}
+.location{
+   display: flex;
+   width: 25px; 
+   height: 22px;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    float: left;
+    margin-left: 60px;
+}
+.carousel img{
+    width: 250px;
+    height: 500px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+ }
+ 
+ #counter {    
+    background-color: #ffb400;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 100px 0;
+}
+#counter .count {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    text-align: center;
+}
+.count h4 {
+    color: #fff;
+	font-size: 16px;
+	margin-top: 0;
+}
+#counter .count .fa {
+    font-size: 40px;
+    display: block;
+    color: #fff;
+}
+#counter .number {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+}
+/*  Pricing Section  */
+
+#pricing {
+    background: #f7f7f7;
+}
+.pricing-items {
+    padding-top: 50px;
+}
+.pricing-item {
+    background: #fff;
+    position: relative;
+    box-shadow: 0 0 9px 0 rgba(130, 121, 121, .2);
+    padding: 50px 0px;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.pricing-item.active {
+    top: -50px;
+}
+.price-list li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.price-list .price {
+    font-size: 30px;
+    font-weight: bold;
+}
+.pricing-item .ribbon {
+    margin: -50px 0 20px;
+    display: block;
+    background-color: #ffb400;
+    padding: 15px 0 2px;
+    opacity: 0.8;
+    border-top-right-radius: 2em;
+}
+.pricing-item:hover .ribbon {
+    background-color: #ffb400;
+	opacity: 1;
+}
+.pricing-item.active .ribbon {
+    background-color: #ffb400;
+	opacity: 1;
+}
+.pricing-item .ribbon p {
+    color: #fff;
+    font-size: 22px;
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+.pricing-item.active .price-list li, .pricing-item:hover .price-list li {
+    color: #848181;;
+}
+ul.price-list {
+    margin-bottom: 30px;
+    padding: 0;
+}
+.btn-price {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    -o-border-radius: 26px;
+    border-radius: 26px;
+    border: 1px solid #848181;
+    background-color: transparent;
+    color: #848181;
+}
+.pricing-item:hover .btn-price,
+.active .btn-price {
+    border: 1px solid #ffb400;
+    background-color: #ffb400;
+    color: #fff;
+}
+.btn-price:focus {
+    background-color: transparent;
+    text-decoration: none;
+}
+@media only screen and (max-width: 767px) {
+    .pricing-items {
+        padding-top: 0;
+    }
+    .pricing-item.active {
+        top: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+footer .main-footer{  padding: 20px 0;  background: #252525;}
+footer ul{  padding-left: 0;  list-style: none;}
+
+/* Copy Right Footer */
+.footer-copyright { background: #222; padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {  list-style: none; margin: 0;  padding: 0;}
+.footer-copyright nav ul li { border-left: 1px solid #505050; display: inline-block;  line-height: 12px;  margin: 0;  padding: 0 8px;}
+.footer-copyright nav ul li a{  color: #969696;}
+.footer-copyright nav ul li:first-child { border: medium none;  padding-left: 0;}
+.footer-copyright p { color: #969696; margin: 2px 0 0;}
+
+/* Footer Top */
+.footer-top{  background: #252525;  padding-bottom: 30px; margin-bottom: 30px;  border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{  background: transparent;}
+footer.transparent .footer-copyright{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{ background: #f9f9f9;}
+footer.light .main-footer{  background: #f9f9f9;}
+footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
+.footer- .logo {    display: inline-block;}
+
+/*==================== 
+  Widgets 
+====================== */
+.widget{  padding: 20px;  margin-bottom: 40px;}
+.widget.widget-last{  margin-bottom: 0px;}
+.widget.no-box{ padding: 0; background-color: transparent;  margin-bottom: 40px;
+  box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget.subscribe p{  margin-bottom: 18px;}
+.widget li a{ color: #ff8d1e;}
+.widget li a:hover{ color: #4b92dc;}
+.widget-title {margin-bottom: 20px;}
+.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+.widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
+.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+.widget .badge{ float: right; background: #7f7f7f;}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{  color: #fff;}
+
+ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#ff8d1e;}
+ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
+.btn{background-color: #ff8d1e; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-webkit-transition: all 250ms ease-in-out 0s;
+-moz-transition: all 250ms ease-in-out 0s;
+-ms-transition: all 250ms ease-in-out 0s;
+-o-transition: all 250ms ease-in-out 0s;
+transition: all 250ms ease-in-out 0s;
+
+}
